@@ -9,8 +9,14 @@ Extrae una superclase con los campos
 """
 
 
+class Persona:
+    def __init__(self):
+        self.__nif = value
+        self.__nombre = value
+        self.__apellidos = value
 
-class Estudiante(Persona):
+
+class Estudiante(Persona, Persona):
     nif = "11111111Z"
     curso = "Primaria"
     nombre = "Nombre"
