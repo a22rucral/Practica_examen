@@ -2,10 +2,11 @@
 Clase Gato.
 :author: Jaime Rabasco Ronda.
 """
+
 class Gato:
     def maullar(self):
         """
-        FUnción que imprime el maullar de un gato
+        Funcion que imprime el maullido del gato
         """
         self.maulla = 'Miau'
         print(self.maulla)
