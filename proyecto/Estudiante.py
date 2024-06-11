@@ -16,7 +16,7 @@ class Persona:
         self.__apellidos = value
 
 
-class Estudiante(Persona, Persona):
+class Estudiante(Persona):
     nif = "11111111Z"
     curso = "Primaria"
     nombre = "Nombre"
